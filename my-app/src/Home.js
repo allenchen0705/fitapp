@@ -5,14 +5,14 @@ function Home() {
   return (
     <body>
       <header className="container">
-        <Logo className="logo"/>
+        <Logo className="logo" />
       </header>
       <div className="Home">
         This is the Home.
         <a href="/create">Create Post</a>
       </div>
     </body>
-    
+
   );
 }
 
