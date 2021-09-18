@@ -1,6 +1,16 @@
+:root {
+    --darkestBlue: #213FF8;
+    --darkBlue: #788BFF;
+    --blue: #9BB1FF;
+    --lightBlue: #BFD7FF;
+    --white: #ffffff;
+    --black: #000000;
+}
+
 body {
     background-image: url('assets/background.svg');
     padding: 4px 24px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
@@ -9,6 +19,80 @@ header {
     position: sticky;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+.navbar {
+    font-size: 18px;
+    align-items: center;
+}
+
 .logo {
     margin-left: auto;
+}
+
+.explore {
+    color: var(--darkBlue);
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.create {
+    float: right;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 16px 8px 14px;
+    border-radius: 20px;
+    background-color: var(--blue);
+    /* background-color: linear-gradient(to var(--darkBlue), var(--lightBlue)); */
+}
+
+.title {
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-weight: bold;
+    margin: 24px 0px;
+}
+
+.search-bar {
+    grid-column: 1 / span 2;
+    border: 3px solid var(--blue);
+    border-radius: 20px;
+    color: var(--blue);
+    padding: 4px 12px;
+    margin: 4px;
+}
+
+.categories {
+    grid-column: 3 /span 1;
+    background-color: var(--darkBlue);
+    border-radius: 20px;
+    padding: 4px 12px;
+    margin: 4px;
+    color: white;
+}
+
+.sort {
+    grid-column: 4 /span 1;
+    background-color: var(--darkestBlue);
+    border-radius: 20px;
+    padding: 4px 12px;
+    margin: 4px;
+    color: white;
+}
+
+p {
+    padding: 0;
+    margin: 0;
 }
