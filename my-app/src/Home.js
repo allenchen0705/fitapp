@@ -9,7 +9,7 @@ function Home() {
         {/* <a href="/" className="explore">Explore</a> */}
         <a href="/create" className="create">+ Create a Post</a>
       </header>
-      <div className="title">
+      <div className="intro">
         <h2>Get inspired. Learn fitness</h2>
         <p>Explore all fitness posts from others around the world</p>
       </div>
