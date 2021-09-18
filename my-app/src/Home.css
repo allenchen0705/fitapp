@@ -1,0 +1,14 @@
+body {
+    background-image: url('assets/background.svg');
+    padding: 4px 24px;
+}
+
+header {
+    top: 0;
+    padding: 8px;
+    position: sticky;
+}
+
+.logo {
+    margin-left: auto;
+}
