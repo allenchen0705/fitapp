@@ -19,7 +19,7 @@ function Home() {
         <div className="sort"><p>Sort by</p></div>
       </section>
     </body>
-    
+
   );
 }
 
