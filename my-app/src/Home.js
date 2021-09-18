@@ -6,7 +6,7 @@ function Home() {
     <body>
       <header className="container navbar">
         <a href="/"><Logo className="logo"/></a>
-        <a href="/" className="explore">Explore</a>
+        {/* <a href="/" className="explore">Explore</a> */}
         <a href="/create" className="create">+ Create a Post</a>
       </header>
       <div className="title">
@@ -15,8 +15,8 @@ function Home() {
       </div>
       <section className="grid">
         <div className="search-bar"><p>Search ...</p></div>
-        <div className="categories"><p>Categories</p></div>
-        <div className="sort"><p>Sort by</p></div>
+        <div className="categories dropdown"><p>Categories</p></div>
+        <div className="sort dropdown"><p>Sort by</p></div>
       </section>
     </body>
 
