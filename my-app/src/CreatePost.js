@@ -40,13 +40,13 @@ function CreatePost() {
           <div className="categorybtn">
             <Sports />
             <p>Sports Training</p>
-          </div>        </div>
+          </div>        
+        </div>
         <a className="post" href="/thankyou">Post!</a>
+        {isOpen && (
+          <YogaForm />
+        )}
       </div>
-      {isOpen && (
-        <YogaForm />
-      )}
-
     </div>
   );
 }

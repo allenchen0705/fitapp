@@ -1,7 +1,7 @@
 function YogaForm() {
-    return {
-        
-    }
+    return (
+        <></>
+    );
 }
 
 export default YogaForm;
