@@ -1,0 +1,26 @@
+.title {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.logo {
+    margin-left: auto;
+}
+
+.choose {
+    position: relative;
+    top: 10px;
+}
+
+.theme {
+    position: relative;
+    top: 80px;
+}
+
+.post {
+    top: 800px;
+    position: relative;
+    left: 450px;
+    font-size: 150%;
+}
