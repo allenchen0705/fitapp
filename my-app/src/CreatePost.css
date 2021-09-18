@@ -10,17 +10,31 @@
 
 .choose {
     position: relative;
-    top: 10px;
+    padding-top: 10px;
 }
 
 .theme {
     position: relative;
-    top: 80px;
+    padding-top: 80px;
 }
 
 .post {
-    top: 800px;
+    bottom: 0;
     position: relative;
     left: 450px;
     font-size: 150%;
+}
+
+.categorydiv {
+    margin: auto;
+}
+
+.categorybtn {
+    display: inline-block;
+    padding: 10px;
+}
+
+.categorybtn:hover {
+    opacity: 70%;
+    cursor: pointer;
 }

@@ -10,7 +10,7 @@ function Home() {
         <a href="/create" className="create">+ Create a Post</a>
       </header>
       <div className="intro">
-        <h2>Get inspired. Learn fitness</h2>
+        <h1>Get inspired. Learn fitness</h1>
         <p>Explore all fitness posts from others around the world</p>
       </div>
       <section className="grid">
