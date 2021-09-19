@@ -1,5 +1,6 @@
 import "./Home.css";
 import { ReactComponent as Logo } from "./assets/logo.svg";
+import { ChevronDown } from "react-feather";
 
 function Home() {
   return (
@@ -21,10 +22,20 @@ function Home() {
           <p>Search ...</p>
         </div>
         <div className="categories dropdown">
-          <p>Categories</p>
+          <button class="dropbtn">Dropdown</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </div>
         <div className="sort dropdown">
-          <p>Sort by</p>
+          <button class="dropbtn">Sort by</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </div>
       </section>
     </body>
