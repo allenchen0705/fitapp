@@ -12,24 +12,24 @@ function CardioForm() {
       <label for="calories">CaloriesLogo:</label>
       <br />
       <input
-        type="number"
+        type="text"
         id="calories"
         name="calories"
         placeholder="calories burned"
       />
       <br />
-      <label for="type">IntensityLogo:</label>
+      <label for="intensity">IntensityLogo:</label>
       <br />
       <input
         type="text"
-        id="Intensity"
-        name="Intensity"
-        placeholder="Intensity"
+        id="intensity"
+        name="intensity"
+        placeholder="intensity"
       />
       <br />
-      <label for="type">TimeLogo:</label>
+      <label for="time">TimeLogo:</label>
       <br />
-      <input type="text" id="Time" name="Time" placeholder="Time" />
+      <input type="text" id="time" name="time" placeholder="time" />
       <br />
       <br />
       <textarea

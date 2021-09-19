@@ -15,7 +15,7 @@ function StrengthForm() {
       <br />
       <label for="type">TypeLogo:</label>
       <br />
-      <input type="type" id="type" name="style" placeholder="type of workout" />
+      <input type="text" id="type" name="type" placeholder="type of workout" />
       <br />
       <br />
       <textarea

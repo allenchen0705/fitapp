@@ -11,12 +11,7 @@ function DietForm() {
       <br />
       <label for="calories">CaloriesLogo:</label>
       <br />
-      <input
-        type="number"
-        id="calories"
-        name="calories"
-        placeholder="calories"
-      />
+      <input type="text" id="calories" name="calories" placeholder="calories" />
       <br />
 
       <label for="type">DRLogo:</label>
