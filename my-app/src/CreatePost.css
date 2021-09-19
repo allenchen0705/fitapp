@@ -6,6 +6,7 @@
     --white: #ffffff;
     --black: #000000;
 }
+
 body {
     background-image: url('assets/background.svg');
     padding: 4px 24px;

@@ -18,6 +18,7 @@ header {
   top: 0;
   padding: 8px;
   position: sticky;
+  z-index: 40;
 }
 
 a {
@@ -36,12 +37,12 @@ a:hover {
 .logo {
   margin-left: auto;
 }
-
+/* 
 .explore {
   color: var(--darkBlue);
   font-weight: bold;
   margin-left: 12px;
-}
+} */
 
 .create {
   float: right;
@@ -84,10 +85,12 @@ p {
   font-size: 110%;
   background-color: var(--darkBlue);
   border-radius: 20px;
-  padding: 4px 12px;
+  padding: 6px 16px 8px 14px;
   margin: 4px;
   color: white;
   width: 90%;
+  border: none;
+  font-weight: bold;
 }
 
 .dropdown {
@@ -114,7 +117,7 @@ p {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+    opacity: 50%;
 }
 
 .dropdown:hover .dropdown-content {
