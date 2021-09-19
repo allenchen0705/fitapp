@@ -15,12 +15,15 @@ import { ReactComponent as Strength } from "./assets/fitness_center_black_24dp (
 import { ReactComponent as Cardio } from "./assets/directions_run_black_24dp.svg";
 
 function CreatePost() {
-  // const [isOpen, setIsOpen] = useState();
   const [template, setTemplate] = useState("");
 
   return (
-    <div className="CreatePost">
-      <Logo className="logo" />
+    <body>
+      <header>
+        <a href="/">
+          <Logo className="logo" />
+        </a>
+      </header>
       <div className="title">
         <h1>Inspire others with your experiences</h1>
         <p className="choose">
@@ -58,7 +61,7 @@ function CreatePost() {
           {template === "Strength" && <StrengthForm />}
         </div>
       </div>
-    </div>
+    </body>
   );
 }
 
