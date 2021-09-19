@@ -8,7 +8,7 @@ import { ReactComponent as Type } from "./assets/fitness_center_black_24dp (1).s
 function StrengthForm() {
   return (
     <div>
-      <form action="/action_page.php" className="form grid-form">
+      <form action="action_page.php" className="form grid-form">
         <div className="grid-form-left">
           <>
             <Title />

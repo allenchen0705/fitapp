@@ -7,7 +7,7 @@ import { ReactComponent as Type } from "./assets/sports_basketball_black_24dp.sv
 function SportForm() {
   return (
     <div>
-      <form action="/action_page.php" className="form grid-form">
+      <form action="action_page.php" className="form grid-form">
         <div className="grid-form-left">
           <>
             <Title />

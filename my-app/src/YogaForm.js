@@ -8,7 +8,7 @@ import { ReactComponent as Style } from "./assets/self_improvement_black_24dp.sv
 function YogaForm() {
   return (
     <div>
-      <form action="/action_page.php" className="form grid-form">
+      <form action="action_page.php" className="form grid-form">
         <div className="grid-form-left">
           <>
             <Title />
