@@ -1,3 +1,12 @@
+:root {
+    --darkestBlue: #213FF8;
+    --darkBlue: #788BFF;
+    --blue: #9BB1FF;
+    --lightBlue: #BFD7FF;
+    --white: #ffffff;
+    --black: #000000;
+}
+
 .title {
     text-align: center;
     position: relative;
@@ -20,9 +29,13 @@
 
 .post {
     bottom: 0;
-    position: relative;
-    left: 450px;
-    font-size: 150%;
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+    color: white;
+    background-color: var(--darkBlue);
+    border-radius: 20px;
+    padding: 6px 16px 8px 14px;
 }
 
 .categorydiv {
@@ -37,4 +50,8 @@
 .categorybtn:hover {
     opacity: 70%;
     cursor: pointer;
+}
+
+.forms {
+    padding: 36px;
 }
