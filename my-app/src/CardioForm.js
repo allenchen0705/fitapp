@@ -9,7 +9,7 @@ import { ReactComponent as Time } from "./assets/schedule_black_24dp.svg";
 function CardioForm() {
   return (
     <div>
-      <form action="/action_page.php" className="form grid-form">
+      <form action="action_page.php" className="form grid-form">
         <div className="grid-form-left">
           <>
             <Title />
