@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 function YogaForm() {
   return (
     <form action="/action_page.php">
