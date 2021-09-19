@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './CreatePost.css';
+import React, { useState } from "react";
+import "./CreatePost.css";
 
 import YogaForm from "./YogaForm.js";
 
@@ -18,9 +18,12 @@ function CreatePost() {
       <Logo className="logo" />
       <div className="title">
         <h1>Inspire others with your experiences</h1>
-        <p className="choose">Choose a category of posts and use our templates to share your fitness experience with others.</p>
+        <p className="choose">
+          Choose a category of posts and use our templates to share your fitness
+          experience with others.
+        </p>
         <h2 className="theme">What is the main theme of your experience?</h2>
-        <div className="categorydiv"> 
+        <div className="categorydiv">
           <div className="categorybtn">
             <Diet />
             <p>Food and Nutrition</p>
@@ -28,24 +31,21 @@ function CreatePost() {
           <div className="categorybtn">
             <Yoga />
             <p>Yoga and Meditation</p>
-          </div>          
+          </div>
           <div className="categorybtn">
             <Strength />
             <p>Strength Training</p>
-          </div>          
+          </div>
           <div className="categorybtn">
             <Cardio />
             <p>Cardio Training</p>
-          </div>          
+          </div>
           <div className="categorybtn">
             <Sports />
             <p>Sports Training</p>
-          </div>        
+          </div>
         </div>
-        <a className="post" href="/thankyou">Post!</a>
-        {isOpen && (
-          <YogaForm />
-        )}
+        {isOpen && <YogaForm />}
       </div>
     </div>
   );
