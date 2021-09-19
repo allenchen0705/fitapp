@@ -27,17 +27,6 @@
     padding-top: 80px;
 }
 
-.post {
-    bottom: 0;
-    position: absolute;
-    right: 0;
-    font-weight: bold;
-    color: white;
-    background-color: var(--darkBlue);
-    border-radius: 20px;
-    padding: 6px 16px 8px 14px;
-}
-
 .categorydiv {
     margin: auto;
 }
@@ -50,6 +39,10 @@
 .categorybtn:hover {
     opacity: 70%;
     cursor: pointer;
+}
+
+.categorybtn:focus {
+    border: 2px solid var(--darkestBlue);
 }
 
 .forms {

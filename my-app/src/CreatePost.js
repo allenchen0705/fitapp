@@ -50,9 +50,6 @@ function CreatePost() {
             <p>Sports Training</p>
           </div>
         </div>
-        <a className="post" href="/thankyou">
-          Post!
-        </a>
         <div className="forms">
           {template === "Diet" && <DietForm />}
           {template === "Yoga" && <YogaForm />}

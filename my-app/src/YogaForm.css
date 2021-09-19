@@ -1,0 +1,56 @@
+:root {
+    --darkestBlue: #213FF8;
+    --darkBlue: #788BFF;
+    --blue: #9BB1FF;
+    --lightBlue: #BFD7FF;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.form {
+    padding: 10px;
+    border: 4px solid var(--lightBlue);
+    border-radius: 20px;
+    width: 720px;
+    margin: auto;
+}
+
+.post {
+    bottom: 0;
+    font-weight: bold;
+    color: white;
+    background-color: var(--darkBlue);
+    border: none;
+    border-radius: 20px;
+    padding: 6px 16px 8px 14px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.post:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.input {
+    border-radius: 20px;
+    border: none;
+    padding: 8px 12px;
+    width: 80%;
+    margin: 4px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-icon {
+    margin-top: 6px;
+}
+
+.grid-form {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-weight: bold;
+}
+
+.grid-form-left, .grid-form-right {
+    margin: auto 0px;
+}
