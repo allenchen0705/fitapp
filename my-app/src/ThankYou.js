@@ -4,8 +4,12 @@ import { ReactComponent as Logo } from "./assets/logo.svg";
 
 function ThankYou() {
   return (
-    <div className="ThankYou">
-      <Logo className="logo" />
+    <body>
+      <header>
+        <a href="/">
+          <Logo className="logo" />
+        </a>
+      </header>
       <div className="center">
         <h1 className="Thanks">
           Thank you for sharing your experience with the world!
@@ -15,7 +19,7 @@ function ThankYou() {
         </a>
         <ChevronRight size="30" color="#213FF8" />
       </div>
-    </div>
+    </body>
   );
 }
 

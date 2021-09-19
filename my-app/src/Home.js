@@ -4,11 +4,10 @@ import { ReactComponent as Logo } from "./assets/logo.svg";
 function Home() {
   return (
     <body>
-      <header className="container navbar">
+      <header>
         <a href="/">
           <Logo className="logo" />
         </a>
-        {/* <a href="/" className="explore">Explore</a> */}
         <a href="/create" className="create">
           + Create a Post
         </a>
