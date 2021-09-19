@@ -36,12 +36,6 @@ a:hover {
     margin-left: auto;
 }
 
-.explore {
-    color: var(--darkBlue);
-    font-weight: bold;
-    margin-left: 12px;
-}
-
 .create {
     float: right;
     color: white;
