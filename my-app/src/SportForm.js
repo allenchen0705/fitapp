@@ -1,38 +1,69 @@
+import "./Form.css";
+
+import { ReactComponent as Title } from "./assets/title_black_24dp.svg";
+import { ReactComponent as Name } from "./assets/face_black_24dp.svg";
+import { ReactComponent as Type } from "./assets/sports_basketball_black_24dp.svg";
+
 function SportForm() {
   return (
-    <form action="/action_page.php">
-      <label for="title">Title:</label>
-      <br />
-      <input type="text" id="title" name="title" placeholder="title" />
-      <br />
-      <label for="name">Name:</label>
-      <br />
-      <input type="text" id="name" name="name" placeholder="name" />
-      <br />
-      <label for="type">TypeLogo:</label>
-      <br />
-      <input
-        type="text"
-        id="type"
-        name="type"
-        placeholder="name of the sport"
-      />
-      <br />
-      <br />
-      <textarea
-        type="text"
-        id="content"
-        name="content"
-        rows="10"
-        cols="30"
-        placeholder="enter here..."
-      />
-      <br />
-      <br />
-      <form method="get" action="/thankyou">
-        <button type="submit">Post</button>
+    <div>
+      <form action="/action_page.php" className="form grid-form">
+        <div className="grid-form-left">
+          <>
+            <Title />
+            <input
+              type="text"
+              className="input"
+              id="title"
+              name="title"
+              placeholder="Title"
+            />
+            <br />
+          </>
+          <>
+            <Name />
+            <input
+              type="text"
+              className="input"
+              id="name"
+              name="name"
+              placeholder="Your name"
+            />
+            <br />
+          </>
+          <>
+            <Type />
+            <input
+              type="text"
+              className="input"
+              id="type"
+              name="type"
+              placeholder="Name of the sport"
+            />
+            <br />
+          </>
+        </div>
+        <div className="grid-form-right">
+          <label for="content">Write a short blurb!</label>
+          <br />
+          <textarea
+            type="text"
+            className="input"
+            id="content"
+            name="content"
+            rows="10"
+            cols="30"
+            placeholder="Enter here..."
+          />
+          <br />
+        </div>
       </form>
-    </form>
+      <form method="get" action="/thankyou">
+        <button className="post" type="submit">
+          Post
+        </button>
+      </form>
+    </div>
   );
 }
 

@@ -1,4 +1,4 @@
-import "./YogaForm.css";
+import "./Form.css";
 
 import { ReactComponent as Title } from "./assets/title_black_24dp.svg";
 import { ReactComponent as Time } from "./assets/schedule_black_24dp.svg";
@@ -11,13 +11,13 @@ function YogaForm() {
       <form action="/action_page.php" className="form grid-form">
         <div className="grid-form-left">
           <>
-            <Title className="input-icon" />
+            <Title />
             <input
               type="text"
               className="input"
               id="title"
               name="title"
-              placeholder="Enter the title"
+              placeholder="Title"
             />
             <br />
           </>
@@ -28,7 +28,7 @@ function YogaForm() {
               className="input"
               id="name"
               name="name"
-              placeholder="Enter your name"
+              placeholder="Your name"
             />
             <br />
           </>
@@ -65,7 +65,7 @@ function YogaForm() {
             name="content"
             rows="10"
             cols="30"
-            placeholder="Type here..."
+            placeholder="Enter here..."
           />
           <br />
         </div>
